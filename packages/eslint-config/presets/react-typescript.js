@@ -1,10 +1,10 @@
 module.exports = {
   extends: [
-    '../lib/common.js',
-    '../lib/typescript.js',
-    '../lib/react.js',
-    '../lib/react-typescript.js',
-    '../lib/prettier.js',
-    '../lib/turbo.js',
+    '../rules/common.js',
+    '../rules/typescript.js',
+    '../rules/react.js',
+    '../rules/react-typescript.js',
+    '../rules/prettier.js',
+    '../rules/turbo.js',
   ],
 };
