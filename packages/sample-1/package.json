@@ -1,0 +1,12 @@
+{
+  "name": "sample-1",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kubo-hide-kun",
+  "license": "ISC"
+}
