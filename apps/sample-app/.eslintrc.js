@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["eslint-config-custom/presets/react-typescript"],
+  extends: ["eslint-config-custom/presets/next-typescript"],
 }

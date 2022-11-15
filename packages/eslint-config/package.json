@@ -20,10 +20,12 @@
     "eslint-config-turbo": "^0.0.4",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-config-next": "13.0.3",
     "eslint-plugin-react": "^7.31.10",
     "eslint-plugin-react-hooks": "^4.6.0"
   },
   "devDependencies": {
+    "next": "13.0.3",
     "prettier": "^2.7.1"
   }
 }
