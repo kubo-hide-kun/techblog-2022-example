@@ -27,8 +27,8 @@ jobs:
       - name: Run format
         run: npm run format
 
-      - name: Run type-check
-        run: npm run type-check
-
       - name: Run build
         run: npm run build
+
+      - name: Run type-check
+        run: npm run type-check
