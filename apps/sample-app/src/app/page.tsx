@@ -1,4 +1,6 @@
 import { use } from 'react';
+import { sample1 } from 'sample-1';
+import { sample2 } from 'sample-2';
 
 type User = {
   id: number;
@@ -15,6 +17,8 @@ export default function Page() {
   return (
     <div>
       <h1>GitHub Users!</h1>
+      <p>sample1x: {sample1()}</p>
+      <p>sample2: {sample2()}</p>
       <div>
         {users.map((user) => {
           return (

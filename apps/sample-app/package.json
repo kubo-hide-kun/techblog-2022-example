@@ -12,7 +12,9 @@
   "dependencies": {
     "next": "13.0.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sample-1": "*",
+    "sample-2": "*"
   },
   "devDependencies": {
     "@types/node": "18.11.9",

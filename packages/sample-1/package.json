@@ -2,10 +2,25 @@
   "name": "sample-1",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
-  "devDependencies": {},
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "source": "src/index.ts",
+  "main": "lib/index.js",
+  "types": "lib/typescript/index.d.ts",
+  "sideEffects": false,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rimraf ./lib && tsc --project tsconfig.build.json",
+    "lint": "eslint \"src/**/*.{js,ts,jsx,tsx}\"",
+    "lint:fix": "eslint \"src/**/*.{js,ts,jsx,tsx}\" --fix",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "eslint-config-custom": "*",
+    "tsconfig-custom": "*"
   },
   "author": "kubo-hide-kun",
   "license": "ISC"
